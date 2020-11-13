@@ -14,7 +14,7 @@ interface State {
 
 export default class BeerList extends React.Component<Props, State> {
   state: State = {
-    beers: ["Maximator", "8.6"],
+    beers: ["Amsterdam Maximator", "8.6", "Mort Subite", "Chimay"],
     newBeer: "",
     delBeer: 0,
   };
